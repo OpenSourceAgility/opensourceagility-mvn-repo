@@ -22,12 +22,19 @@ Those with mvn-repo team privileges can add artifacts to this repository by:
         		</snapshotRepository>
         </distributionManagement>
 
-3.  Executing mvn deploy plugin passing in the alt parameter
+3.  Executing mvn deploy plugin from their artifact base directory passing in the altDeploymentRepository parameter
 
 mvn -DaltDeploymentRepository=snapshot-repo::default::file:../<local_path>/opensourceagility-mvn-repo/snapshots clean deploy
 
     where <local_path> is the relative path to the location of your cloned repo.  This <local_path> must be relative,
     not absolute and not contain shortcut characters like ~
 
+4.  Adding, committing and pushing cloned repo
 
+         From opensourceagility-mvn-repo directory:
+         
+                           git add -A
+                           git commit -m '<your artifact name>'
+                           git push origin master
+                           
 
