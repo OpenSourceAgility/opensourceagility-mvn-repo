@@ -1,0 +1,33 @@
+To use the artificats in this repository in your project, add the shapshot repository to your pom:
+
+         <repository>
+                  <id>opensourceagility-snapshots</id>
+        	        <name>OpenSource Agility Snapshot Repository</name>
+        	        <url>https://github.com/OpenSourceAgility/opensourceagility-mvn-repo/raw/master/snapshots</url>
+        </repository>
+
+Those with mvn-repo team privileges can add artifacts to this repository by:
+
+1)  Cloning this repo locally and noting the local file system path to opensourceagility-mvn_repo base directory.
+2)  Adding the following distribution management section to the artifact pom
+
+        <distributionManagement>
+           	<repository>
+        		<id>repo</id>
+        			<url>https://github.com/OpenSourceAgility/opensourceagility-mvn-repo/raw/master/releases</url>
+        		</repository>
+        		<snapshotRepository>
+        			<id>snapshot-repo</id>
+        			<url>https://github.com/OpenSourceAgility/opensourceagility-mvn-repo/raw/master/snapshots</url>
+        		</snapshotRepository>
+        </distributionManagement>
+
+3.  Executing mvn deploy plugin passing in the alt parameter
+
+mvn -DaltDeploymentRepository=snapshot-repo::default::file:../<local_path>/opensourceagility-mvn-repo/snapshots clean deploy
+
+    where <local_path> is the relative path to the location of your cloned repo.  This <local_path> must be relative,
+    not absolute and not contain shortcut characters like ~
+
+
+
