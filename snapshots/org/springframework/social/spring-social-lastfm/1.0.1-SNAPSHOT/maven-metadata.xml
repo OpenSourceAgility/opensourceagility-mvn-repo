@@ -2,12 +2,11 @@
 <metadata>
   <groupId>org.springframework.social</groupId>
   <artifactId>spring-social-lastfm</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.0.1-SNAPSHOT</version>
   <versioning>
-    <versions>
-      <version>1.0.0-SNAPSHOT</version>
-      <version>1.0.1-SNAPSHOT</version>
-    </versions>
+    <snapshot>
+      <buildNumber>1</buildNumber>
+    </snapshot>
     <lastUpdated>20111228200209</lastUpdated>
   </versioning>
 </metadata>
