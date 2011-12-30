@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.socialsignin</groupId>
+  <artifactId>socialsignin-soundcloud</artifactId>
+  <version>1.0.1-SNAPSHOT</version>
+  <versioning>
+    <versions>
+      <version>1.0.1-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20111230161024</lastUpdated>
+  </versioning>
+</metadata>
