@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.socialsignin</groupId>
+  <artifactId>socialsignin-provider</artifactId>
+  <version>1.0.1-SNAPSHOT</version>
+  <versioning>
+    <versions>
+      <version>1.0.1-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20111230150407</lastUpdated>
+  </versioning>
+</metadata>
