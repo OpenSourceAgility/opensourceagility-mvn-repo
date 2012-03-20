@@ -27,6 +27,11 @@
   <version>${org.springframework.social.version}</version>
 </dependency>
 <dependency>
+ <groupId>org.springframework.data</groupId>
+ <artifactId>spring-data-commons-core</artifactId>
+ <version>1.1.0.RELEASE</version>
+</dependency> 
+<dependency>
       <groupId>javax.servlet</groupId>
       <artifactId>servlet-api</artifactId>
       <version>2.5</version>
@@ -77,5 +82,11 @@
         <version>2.5.1</version>
       </plugin>
 		</plugins>
+		<resources>
+        <resource>
+          <directory>src/main/resources</directory>
+          <filtering>true</filtering>
+        </resource>
+      </resources>   
 	</build>
 </project>
