@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.springframework.social</groupId>
+  <artifactId>spring-social-hibernate-jpa</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <versioning>
+    <versions>
+      <version>1.0.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20120920220946</lastUpdated>
+  </versioning>
+</metadata>
