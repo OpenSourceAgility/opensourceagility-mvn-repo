@@ -2,13 +2,11 @@
 <metadata>
   <groupId>org.socialsignin</groupId>
   <artifactId>socialsignin-mixcloud</artifactId>
-  <version>1.0.1-SNAPSHOT</version>
+  <version>1.1.0-SNAPSHOT</version>
   <versioning>
-    <versions>
-      <version>1.0.1-SNAPSHOT</version>
-      <version>1.0.2-SNAPSHOT</version>
-      <version>1.1.0-SNAPSHOT</version>
-    </versions>
+    <snapshot>
+      <buildNumber>1</buildNumber>
+    </snapshot>
     <lastUpdated>20130728132842</lastUpdated>
   </versioning>
 </metadata>
