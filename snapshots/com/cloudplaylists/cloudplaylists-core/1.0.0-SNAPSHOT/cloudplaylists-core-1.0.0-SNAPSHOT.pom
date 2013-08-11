@@ -8,6 +8,7 @@
 	<name>CloudPlaylists Core</name>
 	<properties>
 		<org.socialsignin.springsocial.security.version>1.0.3.RELEASE</org.socialsignin.springsocial.security.version>
+		<jackson2.version>2.2.2</jackson2.version>
 	</properties>
 	<distributionManagement>
 		<repository>
@@ -41,10 +42,17 @@
 			<version>1.0.0.Final</version>
 			<classifier />
 		</dependency>
+		<!-- 
 		<dependency>
 			<groupId>org.codehaus.jackson</groupId>
 			<artifactId>jackson-mapper-asl</artifactId>
 			<version>1.9.2</version>
+		</dependency>
+		 -->
+		  <dependency>
+		   <groupId>com.fasterxml.jackson.core</groupId>
+		   <artifactId>jackson-annotations</artifactId>
+		   <version>${jackson2.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.social</groupId>
