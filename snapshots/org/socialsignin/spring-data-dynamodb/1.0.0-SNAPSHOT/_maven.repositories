@@ -1,0 +1,5 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Thu Sep 05 22:24:05 BST 2013
+spring-data-dynamodb-1.0.0-SNAPSHOT.jar>=
+spring-data-dynamodb-1.0.0-SNAPSHOT.pom>=
+spring-data-dynamodb-1.0.0-SNAPSHOT-sources.jar>=
